@@ -136,7 +136,7 @@ This section provides direct access to the research completed each day.
 | Day | Documentation | Status |
 |---|---|---|
 | Day 1 | [RAG Fundamentals](documentation/Day1-RAG-Fundamentals.md) | Completed |
-| Day 2 | [LlamaIndex and Haystack](documentation/Day2-LlamaIndex-Haystack.md) | Upcoming |
+| Day 2 | [LlamaIndex and Haystack](documentation/Day2-LlamaIndex-Haystack.md) | Completed |
 | Day 3 | [LangChain and LlamaStack](documentation/Day3-LangChain-LlamaStack.md) | Upcoming |
 | Day 4 | [Practical Implementation](documentation/Day4-Practical-Implementation.md) | Upcoming |
 | Day 5 | [Testing and Comparison](documentation/Day5-Testing-and-Comparison.md) | Upcoming |
@@ -211,6 +211,113 @@ At the end of the six-day survey, this repository will contain:
 - [Haystack Documentation](https://docs.haystack.deepset.ai/)
 - [LangChain Documentation](https://docs.langchain.com/)
 - [LlamaStack Documentation](https://llama-stack.readthedocs.io/)
+
+
+
+# Day 2 – LlamaIndex and Haystack
+
+Date: 26 November 2026  
+Status: Completed
+
+On Day 2, I worked with LlamaIndex and Haystack to understand how both frameworks handle document loading, embeddings, indexing and information retrieval.
+
+I installed the frameworks, configured my Python virtual environment and used the same sample document to test their retrieval capabilities.
+
+ 1. LlamaIndex Implementation
+
+I started with LlamaIndex and completed the following tasks:
+
+- Installed LlamaIndex in my Python virtual environment.
+- Installed the HuggingFace embedding integration.
+- Created `rag-introduction.txt` as my sample knowledge document.
+- Configured the `all-MiniLM-L6-v2` local embedding model.
+- Loaded the document using `SimpleDirectoryReader`.
+- Created a vector index using `VectorStoreIndex`.
+- Configured a retriever to find relevant information.
+- Tested questions directly from the VS Code terminal.
+
+**Practical Result:**
+
+LlamaIndex successfully loaded my document and retrieved relevant information when I asked questions such as "What does RAG mean?"
+
+ 2. Haystack Implementation
+
+After completing the LlamaIndex exercise, I moved to Haystack and carried out the following tasks:
+
+- Installed Haystack and its Sentence Transformers integration.
+- Created a separate Haystack application.
+- Loaded the same `rag-introduction.txt` document.
+- Created an `InMemoryDocumentStore`.
+- Generated document embeddings.
+- Configured the text embedder.
+- Connected the retriever to the Haystack pipeline.
+- Tested document retrieval using questions from the terminal.
+
+Practical Result:
+
+Haystack successfully loaded the document, created the retrieval pipeline and returned relevant information based on my questions.
+
+ 3. Framework Comparison
+
+| Feature | LlamaIndex | Haystack |
+|---|---|---|
+| Document Loading | SimpleDirectoryReader | Document components |
+| Embedding Model | HuggingFace | Sentence Transformers |
+| Indexing and Storage | VectorStoreIndex | InMemoryDocumentStore |
+| Retrieval | Index Retriever | InMemoryEmbeddingRetriever |
+| Workflow | Index and retrieval | Connected pipeline |
+| Practical Test | Successful | Successful |
+
+4. Challenges I Resolved
+
+During the practical exercises, I encountered a few issues and worked through them:
+
+- Configured pip correctly within my Python environment.
+- Fixed the document directory path in my LlamaIndex application.
+- Resolved a Haystack import error by installing the separate Sentence Transformers integration.
+- Completed the HuggingFace embedding model download despite Windows caching warnings.
+
+ 5. What I Learned
+
+From the exercises, I gained practical experience with:
+
+- Installing and configuring RAG frameworks.
+- Loading external documents into applications.
+- Generating local text embeddings.
+- Creating vector indexes and document stores.
+- Configuring retrieval components.
+- Building a modular retrieval pipeline.
+- Testing and comparing different RAG frameworks.
+
+ 6. Screenshots and Practical Evidence
+
+I saved screenshots of the installation, application setup and terminal tests in the `diagrams/day2/` folder.
+
+| Figure | Screenshot Description |
+|---|---|
+| 1 | LlamaIndex installation |
+| 2 | LlamaIndex project and application setup |
+| 3 | LlamaIndex document retrieval test |
+| 4 | Haystack installation |
+| 5 | Haystack pipeline execution |
+
+Screenshot Files:
+
+- `diagrams/day2/01-llamaindex-installation.png`
+- `diagrams/day2/02-llamaindex-project-and-app.png`
+- `diagrams/day2/03-llamaindex-retrieval-test.png`
+- `diagrams/day2/04-haystack-installation.png`
+- `diagrams/day2/05-haystack-pipeline-execution.png`
+
+ 7. Day 2 Outcome
+
+I successfully installed and tested LlamaIndex and Haystack using the same sample document and local embedding model.
+
+Both frameworks retrieved relevant information from my document. Through this exercise, I understood the difference between LlamaIndex's indexing approach and Haystack's component-based pipeline.
+
+The applications currently demonstrate document retrieval. Full LLM-based answer generation will be covered in the next implementation stages.
+
+**Day 2 Completed Successfully.**
 
 
 

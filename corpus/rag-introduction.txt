@@ -1,0 +1,33 @@
+RETRIEVAL-AUGMENTED GENERATION (RAG)
+
+RAG stands for Retrieval-Augmented Generation. It combines information retrieval with large language models.
+
+RAG allows an AI system to retrieve relevant information from external documents before generating an answer.
+
+DOCUMENT INGESTION
+
+Document ingestion is the process of loading and preparing data for retrieval. Documents can come from PDF files, text files, websites and databases.
+
+CHUNKING
+
+Chunking involves splitting large documents into smaller sections. This helps the retrieval system find relevant information more accurately.
+
+EMBEDDINGS
+
+Embeddings convert text into numerical vectors that represent semantic meaning. Similar pieces of information have vectors that are close together.
+
+VECTOR DATABASE
+
+A vector database stores embeddings and supports similarity search. It helps retrieve information related to a user's question.
+
+RETRIEVAL
+
+Retrieval is the process of searching for relevant information from stored documents based on a user's query.
+
+GENERATION
+
+Generation happens when a language model uses the retrieved information to produce a natural-language response.
+
+BENEFITS OF RAG
+
+RAG can improve answer relevance, provide access to private or updated information, and reduce reliance on information stored in a language model's training data.
