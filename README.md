@@ -2,7 +2,7 @@ RAG Framework Survey: A Six-Day Practical Study and Comparison of LlamaIndex, Ha
 
 Author: Ifeanyi Marvelous Akpati  
 GitHub: MarvDev-Arch  
-roject Start Date:25 November 2026  
+Project Start Date: 25 November 2026
 Expected Completion: 30 November 2026  
 Duration: 6 Days  
 Category: DevOps / AI Engineering  
@@ -155,6 +155,8 @@ An open-source framework that provides standardized APIs and configurable servic
 | GitHub | Source code hosting and collaboration. |
 | Docker | Application containerization where applicable. |
 
+
+
 8. Project Structure
 
 
@@ -163,8 +165,6 @@ RAG-FRAMEWORK-SURVEY/
 │   └── rag-introduction.txt
 ├── diagrams/
 ├── documentation/
-│   ├── day2/
-│   │   └── screenshots/
 │   ├── Day1-RAG-Fundamentals.md
 │   ├── Day2-LlamaIndex-Haystack.md
 │   ├── Day3-LangChain-LlamaStack.md
