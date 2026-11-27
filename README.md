@@ -1,16 +1,13 @@
-RAG Framework Survey
-LlamaIndex | Haystack | LangChain | LlamaStack
+RAG Framework Survey: A Six-Day Practical Study and Comparison of LlamaIndex, Haystack, LangChain and LlamaStack
 
 Author: Ifeanyi Marvelous Akpati  
 GitHub: MarvDev-Arch  
-Project Start Date: 25 November 2026  
+roject Start Date:25 November 2026  
 Expected Completion: 30 November 2026  
 Duration: 6 Days  
 Category: DevOps / AI Engineering  
 Difficulty: Intermediate  
-Current Status: Day 1 Documentation Completed
-
-
+Current Status: Day 1 and Day 2 Completed; Day 3 In Progress
 
  1. Project Scope and Boundary
 
@@ -18,24 +15,22 @@ This project is a six-day technical survey of four leading Retrieval-Augmented G
 
 The objective is to research, understand, implement and compare these frameworks based on their ingestion pipelines, retrieval abstractions, agent/tool support, observability and production readiness.
 
- Scope by Day
+Scope by Day
 
-| Day | Activities | Expected Deliverable |
-|---|---|---|
-| Day 1 | RAG fundamentals, AI, LLMs, embeddings, vector databases and RAG architecture. | Fundamentals documentation. |
-| Day 2 | LlamaIndex and Haystack research, architecture, ingestion and retrieval. | Framework research and practical exercises. |
-| Day 3 | LangChain and LlamaStack research, APIs, agents and tool integration. | Framework research and practical exercises. |
-| Day 4 | Implement four minimal RAG pipelines using the same 10-page document corpus. | Four working RAG implementations. |
-| Day 5 | Compare ingestion, retrieval, agents/tools, observability and production readiness. | Feature matrix and testing results. |
-| Day 6 | Complete evaluation, decision guide, recommendations and final documentation. | Final Markdown research report. |
+| Day | Activities | Expected Deliverable | Status |
+|---|---|---|---|
+| Day 1 | RAG fundamentals, AI, LLMs, embeddings, vector databases and RAG architecture. | Fundamentals documentation. | Completed |
+| Day 2 | LlamaIndex and Haystack research, architecture, ingestion and retrieval. | Framework research and practical exercises. | Completed |
+| Day 3 | LangChain and LlamaStack research, APIs, agents and tool integration. | Framework research and practical exercises. | In Progress |
+| Day 4 | Implement four minimal RAG pipelines using the same 10-page document corpus. | Four working RAG implementations. | Upcoming |
+| Day 5 | Compare ingestion, retrieval, agents/tools, observability and production readiness. | Feature matrix and testing results. | Upcoming |
+| Day 6 | Complete evaluation, decision guide, recommendations and final documentation. | Final Markdown research report. | Upcoming |
 
-Scope Boundary:Day 1 covers RAG fundamentals and development environment preparation. Days 2 and 3 focus on individual framework research. Day 4 covers practical implementation. Day 5 is dedicated to framework comparison and evaluation. Day 6 completes the decision guide and final report.
+Scope Boundary: Day 1 covers RAG fundamentals and development environment preparation. Days 2 and 3 focus on individual framework research. Day 4 covers practical implementation. Day 5 is dedicated to framework comparison and evaluation. Day 6 completes the decision guide and final report.
 
 The complete survey is planned for six working days.
 
-
-
- 2. Project Objective
+2. Project Objective
 
 To understand and compare four RAG frameworks and evaluate how they support the development of AI applications that retrieve information from external knowledge sources.
 
@@ -48,11 +43,9 @@ The survey will examine:
 - Production readiness.
 - Practical implementation and evaluation.
 
-
-
  3. Understanding RAG
 
-RAG stands for Retrieval-Augmented Generation.
+RAG stands for Retrieval-Augmented Generation
 
 It is an AI technique that enables Large Language Models to retrieve relevant information from external knowledge sources before generating an answer.
 
@@ -64,7 +57,7 @@ For example, an AI application can search company PDF documents to answer employ
        DOCUMENTS
            |
            v
-     DOCUMENT LOADER
+    DOCUMENT LOADER
            |
            v
       TEXT CHUNKING
@@ -73,13 +66,12 @@ For example, an AI application can search company PDF documents to answer employ
         EMBEDDINGS
            |
            v
-      VECTOR DATABASE
-           |
-           |
+     VECTOR DATABASE
+
       USER QUESTION
            |
            v
-       RETRIEVAL
+        RETRIEVAL
            |
            v
     RELEVANT CONTEXT
@@ -88,7 +80,7 @@ For example, an AI application can search company PDF documents to answer employ
         LLM MODEL
            |
            v
-      GENERATED ANSWER
+     GENERATED ANSWER
 
 
  How RAG Works
@@ -110,9 +102,7 @@ Retrieval and Generation:
 5. Send retrieved context to an LLM.
 6. Generate an answer.
 
-
-
-4. Technical Glossary
+ 4. Technical Glossary
 
 | Term | Simple Explanation |
 |---|---|
@@ -127,8 +117,6 @@ Retrieval and Generation:
 | Ingestion | Collecting and preparing data for an application. |
 | Semantic Search | Finding information based on meaning rather than exact keywords. |
 
-
-
  5. Daily Research Documentation
 
 This section provides direct access to the research completed each day.
@@ -137,29 +125,26 @@ This section provides direct access to the research completed each day.
 |---|---|---|
 | Day 1 | [RAG Fundamentals](documentation/Day1-RAG-Fundamentals.md) | Completed |
 | Day 2 | [LlamaIndex and Haystack](documentation/Day2-LlamaIndex-Haystack.md) | Completed |
-| Day 3 | [LangChain and LlamaStack](documentation/Day3-LangChain-LlamaStack.md) | Upcoming |
+| Day 3 | [LangChain and LlamaStack](documentation/Day3-LangChain-LlamaStack.md) | In Progress |
 | Day 4 | [Practical Implementation](documentation/Day4-Practical-Implementation.md) | Upcoming |
 | Day 5 | [Testing and Comparison](documentation/Day5-Testing-and-Comparison.md) | Upcoming |
 | Day 6 | [Final Report](documentation/Day6-Final-Report.md) | Upcoming |
 
-
-
  6. Frameworks Under Investigation
 
- LlamaIndex
+LlamaIndex
 A framework for connecting LLMs to external data sources through document ingestion, indexing and retrieval.
 
- Haystack
+Haystack
 A framework for developing AI search applications, question-answering systems and structured RAG pipelines.
 
-LangChain
+LangChain 
 A framework for building LLM applications using integrations, retrievers, agents and external tools.
 
- LlamaStack
+LlamaStack 
 An open-source framework that provides standardized APIs and configurable services for building generative AI applications.
 
-
- 7. Development Environment
+7. Development Environment
 
 | Technology | Purpose |
 |---|---|
@@ -170,60 +155,67 @@ An open-source framework that provides standardized APIs and configurable servic
 | GitHub | Source code hosting and collaboration. |
 | Docker | Application containerization where applicable. |
 
-
-
 8. Project Structure
 
-  
+
 RAG-FRAMEWORK-SURVEY/
 ├── corpus/
+│   └── rag-introduction.txt
+├── diagrams/
 ├── documentation/
-├── llamaindex/
+│   ├── day2/
+│   │   └── screenshots/
+│   ├── Day1-RAG-Fundamentals.md
+│   ├── Day2-LlamaIndex-Haystack.md
+│   ├── Day3-LangChain-LlamaStack.md
+│   ├── Day4-Practical-Implementation.md
+│   ├── Day5-Testing-and-Comparison.md
+│   └── Day6-Final-Report.md
 ├── haystack/
+│   ├── app.py
+│   └── requirements.txt
 ├── langchain/
+├── llamaindex/
+│   ├── app.py
+│   └── requirements.txt
 ├── llamastack/
 ├── results/
-├── diagrams/
 ├── .gitignore
 └── README.md
 
 
-
+The `venv/` folder is the local Python virtual environment and should remain excluded from Git using `.gitignore`.
 
  9. Expected Final Deliverables
 
 At the end of the six-day survey, this repository will contain:
 
-1. A comprehensive Markdown research report.
-2. A feature comparison matrix.
-3. Four minimal working RAG pipelines.
-4. A shared 10-page document corpus.
-5. Practical testing and evaluation results.
-6. A decision guide explaining when to choose each framework.
-7. Final technical recommendations.
-8. Implementation screenshots and supporting evidence.
+- A comprehensive Markdown research report.
+- A feature comparison matrix.
+- Four minimal working RAG pipelines.
+- A shared 10-page document corpus.
+- Practical testing and evaluation results.
+- A decision guide explaining when to choose each framework.
+- Final technical recommendations.
+- Implementation screenshots and supporting evidence.
 
+10. Official Documentation
 
-
- 10. Official Documentation
-
-- [LlamaIndex Documentation](https://developers.llamaindex.ai/)
+- [LlamaIndex Documentation](https://docs.llamaindex.ai/)
 - [Haystack Documentation](https://docs.haystack.deepset.ai/)
-- [LangChain Documentation](https://docs.langchain.com/)
+- [LangChain Documentation](https://python.langchain.com/docs/)
 - [LlamaStack Documentation](https://llama-stack.readthedocs.io/)
 
+ 11. Day 2 – LlamaIndex and Haystack
 
-
-# Day 2 – LlamaIndex and Haystack
-
-Date: 26 November 2026  
-Status: Completed
+Date:26 November 2026  
+Status:Completed
 
 On Day 2, I worked with LlamaIndex and Haystack to understand how both frameworks handle document loading, embeddings, indexing and information retrieval.
 
 I installed the frameworks, configured my Python virtual environment and used the same sample document to test their retrieval capabilities.
 
- 1. LlamaIndex Implementation
+LlamaIndex Implementation
 
 I started with LlamaIndex and completed the following tasks:
 
@@ -236,11 +228,11 @@ I started with LlamaIndex and completed the following tasks:
 - Configured a retriever to find relevant information.
 - Tested questions directly from the VS Code terminal.
 
-**Practical Result:**
+Practical Result:
 
 LlamaIndex successfully loaded my document and retrieved relevant information when I asked questions such as "What does RAG mean?"
 
- 2. Haystack Implementation
+ Haystack Implementation
 
 After completing the LlamaIndex exercise, I moved to Haystack and carried out the following tasks:
 
@@ -257,7 +249,7 @@ Practical Result:
 
 Haystack successfully loaded the document, created the retrieval pipeline and returned relevant information based on my questions.
 
- 3. Framework Comparison
+Framework Comparison
 
 | Feature | LlamaIndex | Haystack |
 |---|---|---|
@@ -268,7 +260,7 @@ Haystack successfully loaded the document, created the retrieval pipeline and re
 | Workflow | Index and retrieval | Connected pipeline |
 | Practical Test | Successful | Successful |
 
-4. Challenges I Resolved
+Challenges I Resolved
 
 During the practical exercises, I encountered a few issues and worked through them:
 
@@ -277,7 +269,7 @@ During the practical exercises, I encountered a few issues and worked through th
 - Resolved a Haystack import error by installing the separate Sentence Transformers integration.
 - Completed the HuggingFace embedding model download despite Windows caching warnings.
 
- 5. What I Learned
+ What I Learned
 
 From the exercises, I gained practical experience with:
 
@@ -289,7 +281,7 @@ From the exercises, I gained practical experience with:
 - Building a modular retrieval pipeline.
 - Testing and comparing different RAG frameworks.
 
- 6. Screenshots and Practical Evidence
+ Screenshots and Practical Evidence
 
 I saved screenshots of the installation, application setup and terminal tests in the `diagrams/day2/` folder.
 
@@ -309,7 +301,7 @@ Screenshot Files:
 - `diagrams/day2/04-haystack-installation.png`
 - `diagrams/day2/05-haystack-pipeline-execution.png`
 
- 7. Day 2 Outcome
+Day 2 Outcome
 
 I successfully installed and tested LlamaIndex and Haystack using the same sample document and local embedding model.
 
@@ -317,11 +309,9 @@ Both frameworks retrieved relevant information from my document. Through this ex
 
 The applications currently demonstrate document retrieval. Full LLM-based answer generation will be covered in the next implementation stages.
 
-**Day 2 Completed Successfully.**
+Day 2 Completed Successfully.
 
-
-
-11. Conclusion
+12. Conclusion
 
 This survey aims to develop a practical understanding of modern RAG frameworks and their application in AI-powered knowledge retrieval systems.
 
