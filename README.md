@@ -7,7 +7,7 @@ Start date	25 November 2026
 Expected completion	30 November 2026
 Duration	6 days
 Category	DevOps / AI Engineering
-Current status	Days 1, 2 and 3 completed
+Current status	Days 1, 2 and 3 completed.
 
 
 1. Project Overview
