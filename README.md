@@ -156,10 +156,9 @@ An open-source framework that provides standardized APIs and configurable servic
 | Docker | Application containerization where applicable. |
 
 
+  8. Project Structure
 
- 8. Project Structure
-
-
+```text
 RAG-FRAMEWORK-SURVEY/
 ├── corpus/
 │   └── rag-introduction.txt
@@ -172,6 +171,8 @@ RAG-FRAMEWORK-SURVEY/
 ├── results/
 ├── .gitignore
 └── README.md
+```
+
 
 
 
