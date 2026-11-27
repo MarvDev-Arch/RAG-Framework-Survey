@@ -157,7 +157,7 @@ An open-source framework that provides standardized APIs and configurable servic
 
 
 
-8. Project Structure
+ 8. Project Structure
 
 
 RAG-FRAMEWORK-SURVEY/
@@ -165,23 +165,14 @@ RAG-FRAMEWORK-SURVEY/
 │   └── rag-introduction.txt
 ├── diagrams/
 ├── documentation/
-│   ├── Day1-RAG-Fundamentals.md
-│   ├── Day2-LlamaIndex-Haystack.md
-│   ├── Day3-LangChain-LlamaStack.md
-│   ├── Day4-Practical-Implementation.md
-│   ├── Day5-Testing-and-Comparison.md
-│   └── Day6-Final-Report.md
 ├── haystack/
-│   ├── app.py
-│   └── requirements.txt
 ├── langchain/
 ├── llamaindex/
-│   ├── app.py
-│   └── requirements.txt
 ├── llamastack/
 ├── results/
 ├── .gitignore
 └── README.md
+
 
 
 The `venv/` folder is the local Python virtual environment and should remain excluded from Git using `.gitignore`.
