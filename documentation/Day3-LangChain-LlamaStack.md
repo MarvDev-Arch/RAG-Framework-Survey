@@ -1,18 +1,14 @@
-Day 3 – LangChain and LlamaStack
-Date: 27 November 2026
-Status: Completed
-
-\# Day 3 – LangChain and LlamaStack
+&#x20;Day 3 – LangChain and LlamaStack
 
 
 
-\*\*Date:\*\* 27 November 2026  
+Date: 27 November 2026  
 
-\*\*Status:\*\* Completed – Core Implementation and Testing
+Status:Completed – Core Implementation and Testing
 
 
 
-\## 1. Overview
+&#x20;1. Overview
 
 
 
@@ -24,7 +20,7 @@ I successfully implemented document retrieval with both frameworks using the sam
 
 
 
-\## 2. LangChain Implementation
+&#x20;2. LangChain Implementation
 
 
 
@@ -50,7 +46,7 @@ I completed the following tasks:
 
 
 
-\*\*Practical Results:\*\*
+Practical Results:
 
 
 
@@ -66,7 +62,7 @@ I completed the following tasks:
 
 
 
-\## 3. LlamaStack Implementation
+3\. LlamaStack Implementation
 
 
 
@@ -98,7 +94,7 @@ I completed the following tasks:
 
 
 
-\*\*Practical Results:\*\*
+Practical Results:
 
 
 
@@ -126,11 +122,11 @@ The retrieval test used the question:
 
 
 
-The result returned a similarity score of approximately \*\*0.8185\*\*.
+The result returned a similarity score of approximately 0.8185.
 
 
 
-\## 4. Challenges and Solutions
+&#x20;4. Challenges and Solutions
 
 
 
@@ -154,7 +150,7 @@ The result returned a similarity score of approximately \*\*0.8185\*\*.
 
 
 
-\## 5. What I Learned
+5\. What I Learned
 
 
 
@@ -178,7 +174,7 @@ The result returned a similarity score of approximately \*\*0.8185\*\*.
 
 
 
-\## 6. Screenshots and Practical Evidence
+6\. Screenshots and Practical Evidence
 
 
 
@@ -188,31 +184,29 @@ All Day 3 screenshots are saved in `diagrams/day3/`.
 
 | Screenshot file | Description |
 
-|---|---|
+llama-cli-and-version-check.png` | Llama CLI and version checks |
 
-| `llama-cli-and-version-check.png` | Llama CLI and version checks |
+llama-cli-help.png` | LlamaStack CLI commands and help |
 
-| `llama-cli-help.png` | LlamaStack CLI commands and help |
+llamastack-api-health.png` | Successful LlamaStack API health check |
 
-| `llamastack-api-health.png` | Successful LlamaStack API health check |
+llamastack-api-list.png` | Available LlamaStack APIs |
 
-| `llamastack-api-list.png` | Available LlamaStack APIs |
+llamastack-configuration.png` | LlamaStack Starter configuration |
 
-| `llamastack-configuration.png` | LlamaStack Starter configuration |
+llamastack-dependency-installation.png` | Installation of required dependencies |
 
-| `llamastack-dependency-installation.png` | Installation of required dependencies |
+llamastack-distributions.png` | Available LlamaStack distributions |
 
-| `llamastack-distributions.png` | Available LlamaStack distributions |
+llamastack-document-upload-and-retrieval.png` | Document upload and retrieval evidence |
 
-| `llamastack-document-upload-and-retrieval.png` | Document upload and retrieval evidence |
+llamastack-embedding-model-registration.png` | MiniLM embedding model registration |
 
-| `llamastack-embedding-model-registration.png` | MiniLM embedding model registration |
+llamastack-installation.png` | LlamaStack installation evidence |
 
-| `llamastack-installation.png` | LlamaStack installation evidence |
+llamastack-provider-list.png` | Available LlamaStack providers |
 
-| `llamastack-provider-list.png` | Available LlamaStack providers |
-
-| `llamastack-server-start.png` | Successful LlamaStack server startup |
+llamastack-server-start.png` | Successful LlamaStack server startup |
 
 
 
@@ -220,19 +214,19 @@ Additional LangChain evidence:
 
 
 
-\- `langchain/test\_agent.py` – Calculator tool implementation and test.
+langchain/test\_agent.py` – Calculator tool implementation and test.
 
-\- `langchain/app.py` – LangChain retrieval implementation.
+\-langchain/app.py` – LangChain retrieval implementation.
 
 
 
-\## 7. Framework Comparison
+7\. Framework Comparison
 
 
 
 | Feature | LangChain | LlamaStack |
 
-|---|---|---|
+
 
 | Installation | Successful | Successful |
 
@@ -252,7 +246,7 @@ Additional LangChain evidence:
 
 
 
-\## 8. Scope Limitations
+&#x20;8. Scope Limitations
 
 
 
@@ -268,7 +262,7 @@ The LangChain calculator test verified tool execution independently; it did not 
 
 
 
-\## 9. Day 3 Outcome
+&#x20;9. Day 3 Outcome
 
 
 
@@ -284,5 +278,5 @@ The practical results, troubleshooting steps and screenshots have been documente
 
 
 
-\*\*Day 3 Completed Successfully – Core Implementation and Testing.\*\*.
+Day 3 Completed Successfully – Core Implementation and Testing.
 
