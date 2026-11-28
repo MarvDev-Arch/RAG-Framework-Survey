@@ -27,7 +27,7 @@ The objective is to research, understand, implement and compare these frameworks
 | Day 1 | RAG fundamentals, AI, LLMs, embeddings, vector databases and RAG architecture | Fundamentals documentation | **Completed** |
 | Day 2 | LlamaIndex and Haystack research, architecture, ingestion and retrieval | Framework research and practical exercises | **Completed** |
 | Day 3 | LangChain and LlamaStack research, APIs, agents and tool integration | Framework research and practical exercises | **Completed** |
-| Day 4 | Implement four minimal RAG pipelines using the same 10-page document corpus | Four working RAG implementations | completed |
+| Day 4 | Implement four minimal RAG pipelines using the same 10-page document corpus | Four working RAG implementations | **completed** |
 | Day 5 | Compare ingestion, retrieval, agents/tools, observability and production readiness | Feature matrix and testing results | Upcoming |
 | Day 6 | Complete evaluation, decision guide, recommendations and final documentation | Final Markdown research report | Upcoming |
 
