@@ -394,7 +394,7 @@ Tasks completed:
 - Semantic similarity search with LangChain.
 - LlamaStack distributions, providers, CLI commands and configuration.
 
-### Screenshots and Practical Evidence
+
 
 ## Screenshots and Practical Evidence
 
