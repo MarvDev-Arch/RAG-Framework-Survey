@@ -156,7 +156,7 @@ USER QUESTION -----------+
 | Day 1 | RAG Fundamentals | Completed |
 | Day 2 | LlamaIndex and Haystack | Completed |
 | Day 3 | LangChain and LlamaStack | Completed |
-| Day 4 | Practical Implementation | Upcoming |
+| Day 4 | Practical Implementation | Completed |
 | Day 5 | Testing and Comparison | Upcoming |
 | Day 6 | Final Report | Upcoming |
 
