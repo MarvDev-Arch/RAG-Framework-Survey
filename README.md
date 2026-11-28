@@ -409,6 +409,47 @@ Day 3 screenshots are saved in `diagrams/day3/`.
 LangChain document retrieval was successfully implemented. LlamaStack was installed and explored, but server startup and API verification are still pending.
 
 **Day 3 completed.**
+## Day 3: LangChain and LlamaStack
+
+### Practical Implementation
+
+**LangChain**
+- Installed and configured LangChain.
+- Loaded the RAG sample document.
+- Split the document into smaller chunks.
+- Generated embeddings using all-MiniLM-L6-v2.
+- Created a FAISS vector store.
+- Successfully retrieved relevant document content.
+- Tested a calculator tool using LangChain.
+
+**LlamaStack**
+- Installed and configured LlamaStack 0.7.3.
+- Started the LlamaStack server successfully.
+- Registered all-MiniLM-L6-v2 with 384 embedding dimensions.
+- Created a FAISS vector store.
+- Uploaded rag-introduction.txt.
+- Successfully retrieved relevant document content.
+- Confirmed successful API responses.
+
+### Troubleshooting
+- Resolved missing Python dependencies.
+- Corrected embedding model registration.
+- Resolved port 8321 conflicts.
+- Worked around unsupported CLI and SDK methods.
+
+### Comparison
+
+| Feature | LangChain | LlamaStack |
+|---|---|---|
+| Installation | Successful | Successful |
+| Document ingestion | Successful | Successful |
+| Embeddings | MiniLM | MiniLM |
+| FAISS | Successful | Successful |
+| Retrieval | Successful | Successful |
+| Tool testing | Calculator | Not completed |
+| Full answer generation | Not tested | Not tested |
+
+
 
 ## 14. Conclusion
 
