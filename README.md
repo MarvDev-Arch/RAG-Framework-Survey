@@ -396,19 +396,39 @@ Tasks completed:
 
 ### Screenshots and Practical Evidence
 
-Day 3 screenshots are saved in `diagrams/day3/`.
+## Screenshots and Practical Evidence
+
+Day 3 practical screenshots are saved in `diagrams/day3/`. They provide evidence of the LangChain and LlamaStack installation, configuration, API inspection, document ingestion and retrieval processes.
 
 | Screenshot file | Description |
 |---|---|
 | `01-langchain-application-code.png` | LangChain application code |
-| `02-llamastack-starter-configuration.png` | Starter configuration output |
-| `03-llamastack-provider-configuration.png` | Provider configuration inspection |
+| `02-llamastack-starter-configuration.png` | LlamaStack starter configuration |
+| `03-llamastack-provider-configuration.png` | LlamaStack provider configuration inspection |
+| `llama-cli-and-version-check.png` | Llama CLI and version checks |
+| `llama-cli-help.png` | LlamaStack CLI help and available commands |
+| `llamastack-api-health.png` | Successful LlamaStack API health check |
+| `llamastack-api-list.png` | Available LlamaStack APIs |
+| `llamastack-configuration.png` | LlamaStack configuration details |
+| `llamastack-dependency-installation.png` | Installation of missing dependencies |
+| `llamastack-distributions.png` | Available LlamaStack distributions |
+| `llamastack-document-upload-and-retrieval.png` | Document upload and retrieval test |
+| `llamastack-embedding-model-registration.png` | Registration of all-MiniLM-L6-v2 embedding model |
+| `llamastack-installation.png` | LlamaStack installation evidence |
+| `llamastack-provider-list.png` | Available LlamaStack providers |
+| `llamastack-server-start.png` | Successful LlamaStack server startup |
 
-### Day 3 Outcome
+### Practical Test Results
 
-LangChain document retrieval was successfully implemented. LlamaStack was installed and explored, but server startup and API verification are still pending.
+- LangChain successfully loaded and retrieved content from the sample document.
+- LangChain calculator tool returned the correct result: `100`.
+- LlamaStack server health check returned `OK`.
+- all-MiniLM-L6-v2 was registered with 384 embedding dimensions.
+- FAISS vector store was created successfully.
+- `rag-introduction.txt` was uploaded and processed successfully.
+- LlamaStack successfully retrieved relevant document content with a similarity score of approximately `0.8185`.
 
-**Day 3 completed.**
+
 ## Day 3: LangChain and LlamaStack
 
 ### Practical Implementation
