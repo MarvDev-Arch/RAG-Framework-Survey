@@ -471,6 +471,77 @@ Day 3 practical screenshots are saved in `diagrams/day3/`. They provide evidence
 
 
 
+
+
+## Day 4: Practical RAG Framework Implementation
+
+Date: 28 November 2026  
+Status: Completed
+
+### Objective
+The objective of Day 4 was to implement and test practical RAG retrieval pipelines using four frameworks: LlamaIndex, Haystack, LangChain, and LlamaStack.
+
+### Implementation
+
+All four frameworks were tested using the same document:
+
+`corpus/rag-introduction.txt`
+
+The same three test questions were used to ensure a consistent comparison:
+
+1. What is Retrieval-Augmented Generation (RAG)?
+2. What are embeddings?
+3. What is the purpose of a vector database?
+
+The local embedding model used was:
+
+`sentence-transformers/all-MiniLM-L6-v2`
+
+### Frameworks Tested
+
+| Framework | Implementation | Result |
+|---|---|---|
+| LangChain | FAISS vector store and similarity search | Successful |
+| Haystack | InMemoryDocumentStore and embedding retriever | Successful |
+| LlamaIndex | VectorStoreIndex and document retriever | Successful |
+| LlamaStack | FAISS vector store and document search API | Successful |
+
+### Key Activities
+- Created a shared document corpus for all frameworks.
+- Created common test questions.
+- Installed and configured the required dependencies.
+- Implemented retrieval pipelines for all four frameworks.
+- Used the same local embedding model for testing.
+- Executed retrieval tests and reviewed the returned results.
+- Captured screenshots as evidence of successful implementation.
+
+### Screenshot Evidence
+
+Screenshots are available in:
+
+`diagrams/day4/`
+
+- Shared document corpus.
+- Common test questions.
+- LangChain retrieval test.
+- Haystack retrieval test.
+- LlamaIndex retrieval test.
+- LlamaStack retrieval test.
+
+### Challenges and Lessons Learned
+
+During implementation, I encountered missing dependencies, package installation issues, import errors, and configuration problems. These were resolved by installing the required packages, correcting imports, and updating the application scripts.
+
+I also learned how the four frameworks handle document loading, embedding generation, vector storage, and retrieval differently.
+
+### Day 4 Outcome
+
+Successfully implemented and tested retrieval pipelines with all four frameworks using a shared document and common questions.
+
+The practical results will serve as the foundation for the framework comparison and final report on Day 5 and Day 6.
+
+
+
 ## 14. Conclusion
 
 This survey aims to develop a practical understanding of modern RAG frameworks and their application in AI-powered knowledge retrieval systems.
